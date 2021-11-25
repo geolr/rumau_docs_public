@@ -1,4 +1,6 @@
-# Navigation
+# Vim notes
+
+## Navigation
 
 `G` last line
 
@@ -6,7 +8,7 @@
 
 `42G` move to line 42
 
-# Edit, Copy-Paste
+## Edit, Copy-Paste
 
 `cw` change current word, removes current word and changes to Insert mode
 
@@ -18,7 +20,8 @@
 
 Paste from register 5: `"5p`
 
-# Delete
+## Delete
+
 `dd` delete entire line
 
 Delete line match a pattern: `:g/profile/d` (/ can be _ if forward slash is needed in pattern)\
@@ -30,7 +33,8 @@ d is the command to be done, here d for line deleteTo *negate*, thus *not* match
 
 `:g/"NO 6[3-8]/d` (to remove all lines for Norwegian Sea wells) => regex way to say numbers from 3 to 8
 
-# View
+## View
+
 Ctrl+w v => vertical split (also via :vsplit or :vsp datei.txt)
 
 \:q => close this area :qa quit all
@@ -47,13 +51,13 @@ Ctrl+w r => rotate or change the content of splits, use R for opposite direction
 
 \:help Ctrl-w
 
-# Show
+## Show
 
 `:set number` show line numbers
 
 `:set nonumber` hide line numbers
 
-# Search
+## Search
 
 `:/searchstring`
 
@@ -63,7 +67,7 @@ Ctrl+w r => rotate or change the content of splits, use R for opposite direction
 `%` is a range: Every line, anywhere in document\
 the range `4,7` would be lines four to seven
 
-# Replace
+## Replace
 
 `:s` as in `:substitute` (or Search?) ((in selected Block??))
 
@@ -78,12 +82,12 @@ Add `i` to the end of the command => search case insensitive (`I` forces case-se
 
 `:%s/Ø/OE/g | %s/Å/AA/g | %s/Æ/AE/g | %s/ø/oe/g | %s/å/aa/g | %s/æ/ae/g`But does this stop processing if a character is not found?
 
-`:%s/\t/"\t/` **replaces** the first Tab on every line with "<Tab> => to encapsulate a well name with double quotes
+`:%s/\t/"\t/` **replaces** the first Tab on every line with "`<Tab>` => to encapsulate a well name with double quotes
 
 In a terminal: `sed -i 's/C1/SGEO_C1/g' *.las`
 
 
-#### Sorting
+## Sorting
 
 This is Fast!
 
@@ -91,19 +95,19 @@ This is Fast!
 
 For numeric sort: `:sort n`
 
-# Block Mode (Visual mode)
+## Block Mode (Visual mode)
 
 `Ctrl+v` startet Block/Visual mode
 
 Move commands => selectiert Danach d løscht
 
-Zum Blockweise Kommentieren Cursor am Zeilenanfang Ctrl+v, j soviele Zeilen wie nøtig I Tippen des Kommentars z.B. ## ESC macht die Bearbeitung schnell auch bei grossen Dateien
+Zum Blockweise Kommentieren Cursor am Zeilenanfang Ctrl+v, j soviele Zeilen wie nøtig I Tippen des Kommentars z.B. #### ESC macht die Bearbeitung schnell auch bei grossen Dateien
 
-http://vimdoc.sourceforge.net/htmldoc/visual.html#blockwise-operators
+http://vimdoc.sourceforge.net/htmldoc/visual.html##blockwise-operators
 
 `gv` bring back last visual selection
 
-# Commands in vim
+## Commands in vim
 
 From within Normal-mode, typing : tells vim that now it's in **Command-mode** if then an i is typed, it won't go to Insert-mode as usual. Command-Mode: Kommand wird gesendet wenn Enter gedrueckt wird (<CR>)
 
@@ -122,7 +126,7 @@ Whitespace: `:set list` switch off by: `:set nolist`
 Vergleichen, vom terminal: `vimdiff file1.txt file2.txt` \
 `:qa` schliesst alles
 
-# Configuration
+## Configuration
 
 vimrc
 
@@ -130,7 +134,7 @@ set path+=\*\* += haengt an \*\* dann sind alle Unterverzeichnisse rekursiv dabe
 
 Zum Anzeigen der aktuellen Variablen, in vim, für 'path' :set path?
 
-# Testen/Lernen
+## Testen/Lernen
 
 * [ ] File-Browser mit: `:tabnew` .
 
