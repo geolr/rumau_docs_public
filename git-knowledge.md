@@ -3,6 +3,7 @@
 
 
 # Send to remote
+to push local commits to remote:
 ?`git push origin main`
 
-`[200~git push  <REMOTENAME> <BRANCHNAME>`
+`git push  <REMOTENAME> <BRANCHNAME>`
