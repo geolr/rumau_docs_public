@@ -31,21 +31,21 @@ d is the command to be done, here d for line deleteTo *negate*, thus *not* match
 `:g/"NO 6[3-8]/d` (to remove all lines for Norwegian Sea wells) => regex way to say numbers from 3 to 8
 
 # View
-Ctrl+w v => vertical split (also via :vsplit or :vsp datei.txt)
+`Ctrl+w v` => vertical split (also via :vsplit or :vsp datei.txt)
 
-\:q => close this area :qa quit all
+`\:q` => close this area :qa quit all
 
-\:e to open files
+`\:e` to open files
 
-Ctrl+w arrowkey from hjkl => moves between splits, also Ctrl+w w
+`Ctrl+w` arrowkey from hjkl => moves between splits, also `Ctrl+w w
 
-Ctrl+w x => exchange windows
+`Ctrl+w x` => exchange windows
 
-Ctrl+w r => rotate or change the content of splits, use R for opposite direction
+`Ctrl+w r => rotate or change the content of splits, use R for opposite direction
 
-\:resize -5 => reduce the size of the split, number of RowColumn
+`\:resize -5` => reduce the size of the split, number of RowColumn
 
-\:help Ctrl-w
+`\:help Ctrl-w`
 
 # Show
 
