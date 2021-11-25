@@ -33,7 +33,8 @@ d is the command to be done, here d for line deleteTo *negate*, thus *not* match
 
 `:g/"NO 6[3-8]/d` (to remove all lines for Norwegian Sea wells) => regex way to say numbers from 3 to 8
 
-# View
+## View
+
 `Ctrl+w v` => vertical split (also via :vsplit or :vsp datei.txt)
 
 `\:q` => close this area :qa quit all
@@ -85,7 +86,6 @@ Add `i` to the end of the command => search case insensitive (`I` forces case-se
 
 In a terminal: `sed -i 's/C1/SGEO_C1/g' *.las`
 
-
 ## Sorting
 
 This is Fast!
@@ -102,13 +102,13 @@ Move commands => selectiert Danach d løscht
 
 Zum Blockweise Kommentieren Cursor am Zeilenanfang Ctrl+v, j soviele Zeilen wie nøtig I Tippen des Kommentars z.B. #### ESC macht die Bearbeitung schnell auch bei grossen Dateien
 
-http://vimdoc.sourceforge.net/htmldoc/visual.html##blockwise-operators
+<http://vimdoc.sourceforge.net/htmldoc/visual.html##blockwise-operators>
 
 `gv` bring back last visual selection
 
 ## Commands in vim
 
-From within Normal-mode, typing : tells vim that now it's in **Command-mode** if then an i is typed, it won't go to Insert-mode as usual. Command-Mode: Kommand wird gesendet wenn Enter gedrueckt wird (<CR>)
+From within Normal-mode, typing : tells vim that now it's in **Command-mode** if then an i is typed, it won't go to Insert-mode as usual. Command-Mode: Kommand wird gesendet wenn Enter gedrueckt wird `(<CR>)`
 
 \:set showcmd das zeigt an welche tasten gedrueckt wurden
 
@@ -137,6 +137,6 @@ Zum Anzeigen der aktuellen Variablen, in vim, für 'path' :set path?
 
 * [ ] File-Browser mit: `:tabnew` .
 
-#### Sites
+### Sites
 
 **[theFrugalComputerGuy.com](https://theFrugalComputerGuy.com)**
