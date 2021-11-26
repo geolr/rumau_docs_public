@@ -1,6 +1,10 @@
 
 
+# git (just local)
 
+`git add file.txt` is *staging* the changes on a file for later commit.
+
+`git commit -m "why this change was done"` commiting the changes together with an explanation
 
 # Send to remote
 
