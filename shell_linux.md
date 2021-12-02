@@ -30,3 +30,7 @@ Add blank where a number after minus
 `sed -i 's/-[0-9]/-&/' *.txt`
 then all the ones that should have minus and space have --, new sed:
 `sed -i 's/--/- /' *.txt`
+
+Add to beginning of line `sed -i 's/^/"/' test.txt`
+
+Find first tab, replace with doublequote and tab `sed -i 's_\t_"\t_' file.txt`
