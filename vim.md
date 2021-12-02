@@ -71,6 +71,8 @@ the range `4,7` would be lines four to seven
 
 `:s` as in `:substitute` (or Search?) ((in selected Block??))
 
+In current line: `:s/pattern/replace/`, add `g` for all occurences on the line
+
 In whole file: `:%s/pattern/replace/`\
 But: Only once per line, Repeat and it will take the next occurrence...\
 Add to the end of the command `g` to do it globally\
