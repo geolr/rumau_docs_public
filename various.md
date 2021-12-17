@@ -10,3 +10,16 @@
 ==> can become the value of a key
 
 `null` in json is made `None` in python
+
+# osdu-cli
+
+Trying to search
+
+## search query -k
+
+`osdu list records` to get all
+
+`osdu search query -k osdu:wks:reference-data--UnitOfMeasure:1.0.0 -ojson --filter results[7].data.Code` => Gives the entire content in "data"-key
+
+`osdu search query -k osdu:wks:reference-data--UnitOfMeasure:1.0.0 -ojson --filter results[7].data.Code` => Gives result for the 8th element in the results[] array
+* rather pipe to grep?
