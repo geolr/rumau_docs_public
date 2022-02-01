@@ -25,3 +25,10 @@ Trying to search
 * rather pipe to grep?
 
 `osdu search query -k osdu:wks:reference-data--UnitOfMeasure:1.0.0 -ojson --filter results[*].data.IsBaseUnit` => listing of the true or false values
+
+
+# Database
+
+Denormalized => combining several tables into one (for easier consumption by users)
+
+Normalized would be the data in it's seperate tables
