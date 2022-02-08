@@ -15,4 +15,4 @@ to push local commits to remote:
 
 # Get from remote
 
-`git pull origin main` is a combination of `fetch` and `merge` (get the changes from remote and combine with own changes)
+`git pull origin main` is a combination of `fetch` and `merge` (get the changes from remote and combine with own changes), will also get new files from remote
