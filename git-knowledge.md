@@ -8,6 +8,8 @@
 
 # Send to remote
 
+> login first, if wishing to use cli git, Personal Access Token, Check github-settings-Developer Options-Personal Access tokens (home)
+
 to push local commits to remote:
 ?`git push origin main`
 
@@ -16,3 +18,8 @@ to push local commits to remote:
 # Get from remote
 
 `git pull origin main` is a combination of `fetch` and `merge` (get the changes from remote and combine with own changes), will also get new files from remote
+
+# Github
+
+* Watch: https://github.com/trending
+* Star: https://github.com/geolr?tab=stars
