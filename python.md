@@ -16,9 +16,14 @@ Deactive with: `deactivate`
 
 In interactive commandline: `help(datetime)` to get help for the datetime module, or in any other
 
-# Pandas
+# Libs
+
+## Pandas
 
 `pd.concat` needs a `sort=True`
 
 `pd.Series` to create an empty, needs as dtype-specified, default is now `object`
 
+## Record linking
+"record linkage and deduplication"
+Record linkage Toolkit: https://recordlinkage.readthedocs.io
