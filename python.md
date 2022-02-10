@@ -15,3 +15,10 @@ Deactive with: `deactivate`
 # Help
 
 In interactive commandline: `help(datetime)` to get help for the datetime module, or in any other
+
+# Pandas
+
+`pd.concat` needs a `sort=True`
+
+`pd.Series` to create an empty, needs as dtype-specified, default is now `object`
+
