@@ -27,5 +27,9 @@ to push local commits to remote:
 ## Visual Studio Code and Github
 
 plus-icon next to file to *stage* the changes
+
 Add message near top and click tickmark to *commit*
-Once done with local commits: Icon near top to *push* to remote
+
+Once done with local commits: Icon near top to *push* to remote (the button is a push, pull combo)
+
+https://www.youtube.com/watch?v=aUhl3B6ZweQ
