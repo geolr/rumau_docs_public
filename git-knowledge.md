@@ -23,3 +23,9 @@ to push local commits to remote:
 
 * Watch: https://github.com/trending
 * Star: https://github.com/geolr?tab=stars
+
+## Visual Studio Code and Github
+
+plus-icon next to file to *stage* the changes
+Add message near top and click tickmark to *commit*
+Once done with local commits: Icon near top to *push* to remote
