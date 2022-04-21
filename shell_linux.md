@@ -35,6 +35,18 @@ Add to beginning of line `sed -i 's/^/"/' test.txt`
 
 Find first tab, replace with doublequote and tab `sed -i 's_\t_"\t_' file.txt`
 
+# grep 
+
+find a string in files
+
+`grep SOR *.las` look for SOR in all .las files, prints also the line where found
+
+`grep -l SOR *.las` prints only the filename where found
+
+`grep -l SOR *.las | xargs.exe cp -t ./selected_curves/` to copy the found files to a different folder
+
+------------------------------------------------------------
+
 `blocl 
 of 
 code
