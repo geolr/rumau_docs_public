@@ -11,6 +11,8 @@
 
 `null` in json is made `None` in python
 
+Visual Studio Code has a *beautify* option in command palette for readability.
+
 # osdu-cli
 
 Trying to search
