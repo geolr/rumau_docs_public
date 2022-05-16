@@ -26,7 +26,11 @@ to push local commits to remote:
 
 ## Visual Studio Code and Github
 
-plus-icon next to file to *stage* the changes
+`pull` is a good idea.
+
+Make changes to a file, then save.
+
+Now, a plus-icon next to file in source tab should appear. To *stage* the changes click Plus-icon
 
 Add message near top and click tickmark to *commit*
 
