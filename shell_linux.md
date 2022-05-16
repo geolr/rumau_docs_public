@@ -45,6 +45,16 @@ find a string in files
 
 `grep -l SOR *.las | xargs.exe cp -t ./selected_curves/` to copy the found files to a different folder
 
+# find
+
+for files and folders/directories
+
+`find` looks recursively from current pwd
+
+`find -type f` is for finding only *files*
+
+`find -type d` is for finding only *directories*
+
 ------------------------------------------------------------
 
 `blocl 
