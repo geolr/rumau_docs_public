@@ -55,6 +55,24 @@ for files and folders/directories
 
 `find -type d` is for finding only *directories*
 
+`find -name "*.txt"` looks for patterns in name (glob), case-sensitive
+
+`-iname` would be case-insensitive
+
+`-path` is like name but on the entire path. * will match both / and leading dots in filename
+
+`-ipath` then case-insensitive
+
+Each expression is true or false for the current file. Many those expressions are chained as `-and` per default. `$ find -name "*.js" -type f` would do the and for the name and type file.
+
+`-or` would allow for several tests: `find -name "*.js" -or -name "*.css" -type f`
+
+`-not` to negate expression
+
+paranthesis group expressions, but require escaping in bash.
+
+`-exec` to do something with the results
+
 ------------------------------------------------------------
 
 `blocl 
