@@ -73,6 +73,13 @@ paranthesis group expressions, but require escaping in bash.
 
 `-exec` to do something with the results
 
+# du
+Disk usage
+
+`du -h` to get human readable size (like Megabyte, GB when appropriate), will traverse recursively into subdirectories and have one line per file
+
+`du -hs` just output one line with the total if the argument was a folder
+
 ------------------------------------------------------------
 
 `blocl 
