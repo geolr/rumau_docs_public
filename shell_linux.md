@@ -76,9 +76,9 @@ paranthesis group expressions, but require escaping in bash.
 # du
 Disk usage
 
-`du -h` to get human readable size (like Megabyte, GB when appropriate), will traverse recursively into subdirectories and have one line per file
+`du -h` to get human-readable size (like Megabyte, GB when appropriate), will traverse recursively into subdirectories and have one line per file
 
-`du -hs` just output one line with the total if the argument was a folder
+`du -hs` just output one summarized line with the total if the argument was a folder
 
 ------------------------------------------------------------
 
