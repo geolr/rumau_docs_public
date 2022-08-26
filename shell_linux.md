@@ -73,6 +73,12 @@ paranthesis group expressions, but require escaping in bash.
 
 `-exec` to do something with the results
 
+# regex
+
+Regular expressions
+
+<https://github.com/google/re2/blob/main/doc/syntax.txt>
+
 # du
 Disk usage
 
