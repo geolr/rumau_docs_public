@@ -86,6 +86,14 @@ Disk usage
 
 `du -hs` just output one summarized line with the total if the argument was a folder
 
+# cli
+Environment variables: `printenv` display all 
+
+vs. Shell variables: Environment variables visible to all processes, not only shell
+
+`VAR="hello"  # shell variable created
+export VAR   # variable now part of the environment`
+
 ------------------------------------------------------------
 
 `blocl 
