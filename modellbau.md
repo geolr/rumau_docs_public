@@ -16,6 +16,8 @@ EWD - Einstellwinkeldifferenz <https://www.aufwind-magazin.de/redaktion/0517_the
 
 FPV - First Person View
 
+Outrunner Motor - 
+
 # Tips & Tricks
 
 Leisten-Schneider: Klinge an Klötze kleben
