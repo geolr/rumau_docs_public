@@ -5,7 +5,7 @@ BEC - Battery Eliminator Circuit, SBEC = Schalt-BEC für höhere Spannungen
 
 COG - Center of Gravity, Schwerpunkt
 
-DLG - Dicus Launch Glider
+DLG - Discus Launch Glider (? also Side Arm Launch)
 
 ESC - Electronic Speed Control, Regler, oft mit integrierter BEC, also nur ein Akku nötig für Motor und Rest
 
@@ -24,6 +24,8 @@ Serial RX - Empfängermodus digital, sehr spezifisch zum Hersteller, aber wohl b
 PWM - Empfängermodus analog, Pulse Width Modulation, je Kanal ein Anschluss und Kabel, 3-Adern (Ground, +5V, Signal), Kodierung nach Länge des Signals, 1000us sind Minimum stick, 2000us sind Maximum stick <https://quadmeup.com/pwm-ppm-and-serial-rx-explained/>
 
 PPM - Empfängermodus analog, Pulse Position Modulation, 'stapelt' alle Kanäle, ein Anschluss kan 12 Kanäle bedienen, braucht ein Zwischendings an dem die Servos hängen (?) 
+
+SAL - Side Arm Launch
 
 # Tips & Tricks
 
