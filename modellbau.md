@@ -15,6 +15,12 @@ FPV - First Person View
 
 Outrunner Motor - 
 
+Serial RX - Empfängermodus digital, sehr spezifisch zum Hersteller, aber wohl besser als PWM oder PPM 
+
+PWM - Empfängermodus analog, Pulse Width Modulation, je Kanal ein Anschluss und Kabel, 3-Adern (Ground, +5V, Signal), Kodierung nach Länge des Signals, 1000us sind Minimum stick, 2000us sind Maximum stick <https://quadmeup.com/pwm-ppm-and-serial-rx-explained/>
+
+PPM - Empfängermodus analog, Pulse Position Modulation, 'stapelt' alle Kanäle, ein Anschluss kan 12 Kanäle bedienen, braucht ein Zwischendings an dem die Servos hängen (?) 
+
 # Tips & Tricks
 
 Leisten-Schneider: Klinge an Klötze kleben
