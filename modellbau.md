@@ -5,7 +5,7 @@ BEC - Battery Eliminator Circuit, SBEC = Schalt-BEC für höhere Spannungen
 
 COG - Center of Gravity, Schwerpunkt
 
-DLG - Discus Launch Glider (? also Side Arm Launch)
+DLG - Discus Launch Glider (? also Side Arm Launch); Lightning Bug plan: thicker boom for DLG then SAL, difference?
 
 ESC - Electronic Speed Control, Regler, oft mit integrierter BEC, also nur ein Akku nötig für Motor und Rest
 
@@ -25,7 +25,7 @@ PWM - Empfängermodus analog, Pulse Width Modulation, je Kanal ein Anschluss und
 
 PPM - Empfängermodus analog, Pulse Position Modulation, 'stapelt' alle Kanäle, ein Anschluss kan 12 Kanäle bedienen, braucht ein Zwischendings an dem die Servos hängen (?) 
 
-SAL - Side Arm Launch
+SAL - Side Arm Launch; Lightning Bug plan: thinner boom for SAL then DLG, difference?
 
 # Tips & Tricks
 
