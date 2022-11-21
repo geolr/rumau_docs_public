@@ -25,6 +25,8 @@ PWM - Empfängermodus analog, Pulse Width Modulation, je Kanal ein Anschluss und
 
 PPM - Empfängermodus analog, Pulse Position Modulation, 'stapelt' alle Kanäle, ein Anschluss kan 12 Kanäle bedienen, braucht ein Zwischendings an dem die Servos hängen (?) 
 
+RES - Rudder Elevator Spoiler Eine Seglerklasse, 2-Achs-Steuerung mit Landeklappen = spoiler
+
 SAL - Side Arm Launch; Lightning Bug plan: thinner boom for SAL then DLG, difference?
 
 # Tips & Tricks
