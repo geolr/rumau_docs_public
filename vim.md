@@ -131,7 +131,7 @@ Vergleichen, vom terminal: `vimdiff file1.txt file2.txt` \
 
 `:w other_filename.txt` writes the current buffer to a new file, keeps current file open in the buffer
 
-`:sav or :saveas other_filename.txt` writes other_filename.txt then closes the buffer and loads other_filename.txt ready for edits
+`:sav or :saveas other_filename.txt` writes other_filename.txt then hides the current buffer and loads other_filename.txt ready for edits
 
 ## Configuration
 
