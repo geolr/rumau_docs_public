@@ -46,10 +46,12 @@ find a string in files
 `grep -l SOR *.las | xargs.exe cp -t ./selected_curves/` to copy the found files to a different folder
 
 # file properties
+## Time
+* `mtime` modification time => `ls -l` shows that
+* `ctime` change of a file's metadata such as ownership, location, permissions
+* `atime` access time => try `ls -lu`
 
-`mtime` modification time => `ls -l` shows that
-`ctime` change of file metadata
-`atime` access time
+also find with -atime might help: To find files whose modification time is 2 or more days ago: `find . -type f -mtime 2`
 
 # find
 
