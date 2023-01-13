@@ -45,6 +45,12 @@ find a string in files
 
 `grep -l SOR *.las | xargs.exe cp -t ./selected_curves/` to copy the found files to a different folder
 
+# file properties
+
+`mtime` modification time => `ls -l` shows that
+`ctime` change of file metadata
+`atime` access time
+
 # find
 
 for files and folders/directories
