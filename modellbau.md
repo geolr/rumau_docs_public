@@ -32,3 +32,15 @@ SAL - Side Arm Launch; Lightning Bug plan: thinner boom for SAL then DLG, differ
 # Tips & Tricks
 
 Leisten-Schneider: Klinge an Klötze kleben
+
+# Wunschliste
+
+## Fernsteuerung
+Radiomaster Boxer 4in1 EU-LBT
+<https://www.radiomasterrc.eu/shop/transmitters/boxer/radiomaster-boxer/>
+Waere in Europa etwas billiger (2000kr, ohne Li-Ion Batterie), mit grossem Akku dann nur 2140kr
+
+Protokolle:
+* 4in1 LBT Version (Europe) is limited to LBT compliant protocols FrSKY X/X2 LBT, HoTT LBT and **DSMX** with 20dBm
+  *  Was waere mit DSM2?
+* CC2500 LBT Version (Europe) is limited to LBT compliant protocols FrSKY X/X2 LBT & HoTT LBT with 20dBm => **DSMX** *fehlt also*
