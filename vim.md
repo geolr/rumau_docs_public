@@ -33,6 +33,10 @@ d is the command to be done, here d for line deleteTo *negate*, thus *not* match
 
 `:g/"NO 6[3-8]/d` (to remove all lines for Norwegian Sea wells) => regex way to say numbers from 3 to 8
 
+Delete empty lines:
+- `:g/^$/d` for lines containing nothing
+- `:g/^\s*$/d` for lines containing only whitespace
+
 ## View
 
 `Ctrl+w v` => vertical split (also via :vsplit or :vsp datei.txt)
