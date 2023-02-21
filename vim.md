@@ -112,6 +112,15 @@ Zum Blockweise Kommentieren Cursor am Zeilenanfang Ctrl+v, j soviele Zeilen wie 
 
 `gv` bring back last visual selection
 
+## Other edit commands
+
+```
+:%norm A'
+   %       = for every line
+   norm    = type the following commands
+   A'      = append ' to the end of current line
+```
+
 ## Commands in vim
 
 From within Normal-mode, typing : tells vim that now it's in **Command-mode** if then an i is typed, it won't go to Insert-mode as usual. Command-Mode: Kommand wird gesendet wenn Enter gedrueckt wird `(<CR>)`
@@ -148,6 +157,7 @@ Zum Anzeigen der aktuellen Variablen, in vim, für 'path' :set path?
 ## Testen/Lernen
 
 * [ ] File-Browser mit: `:tabnew` .
+* [ ] norm-Kommando
 
 ### Sites
 
