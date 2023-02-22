@@ -12,6 +12,12 @@ Don't forget to Activate the environment: `source osdu-cli-env/bin/activate`
 
 Deactive with: `deactivate`
 
+# Windows
+
+venv on Windows seems to work to activate like this: `.\windows_env\Scripts\activate`
+
+How to pip install?
+
 # Help
 
 In interactive commandline: `help(datetime)` to get help for the datetime module, or in any other
