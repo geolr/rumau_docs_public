@@ -16,7 +16,9 @@ Deactive with: `deactivate`
 
 venv on Windows seems to work to activate like this: `.\windows_env\Scripts\activate`
 
-How to pip install?
+Once in the activate `venv`, then `pip install` just works
+
+Also `python -m jupyterlab` is OK and starts the server and all.
 
 # Help
 
