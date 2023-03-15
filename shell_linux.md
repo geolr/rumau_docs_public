@@ -1,3 +1,11 @@
+# Misc
+
+find which shell is in use `echo $shell`
+
+For sourcing: `.cshrc`
+
+For sourcing: `.profile`, `.bash_profile` or `.bashrc`
+
 # sed
 
 `sed -i 's/foo/bar/g' *`
