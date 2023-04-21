@@ -6,6 +6,8 @@ For sourcing: `.cshrc`
 
 For sourcing: `.profile`, `.bash_profile` or `.bashrc`
 
+`mkdir -p some/dir/sub/next/more` create parents as needed
+
 # sed
 
 `sed -i 's/foo/bar/g' *`
