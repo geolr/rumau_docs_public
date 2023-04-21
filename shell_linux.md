@@ -97,6 +97,16 @@ Regular expressions
 
 <https://github.com/google/re2/blob/main/doc/syntax.txt>
 
+# rsync
+
+`-az` archive and compress is good
+
+`-n`  for dry-run
+
+`--exclude attic/` to omit some parts
+
+`--bwlimit=300` limit the bandwidth used
+
 # du
 Disk usage
 
