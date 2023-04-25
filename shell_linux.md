@@ -107,6 +107,10 @@ Regular expressions
 
 `--bwlimit=300` limit the bandwidth used
 
+trailing slash (/) on the source directory:
+* If you do __not__ use a trailing slash, the source directory is copied to the destination directory, and then the contents of the directory.
+* When you __do use__ the trailing slash, rsync only copies the content of the source without creating an additional directory level.
+
 # du
 Disk usage
 
