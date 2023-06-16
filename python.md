@@ -32,6 +32,10 @@ In interactive commandline: `help(datetime)` to get help for the datetime module
 
 `pd.Series` to create an empty, needs as dtype-specified, default is now `object`
 
+`pd.json_normalize(j, record_path=['data','results'])` where j is dictionary of json, data and results are levels in the json hierarchy
+
+`df.to_csv('new.csv')` for export to csv
+
 ## Record linking
 "record linkage and deduplication"
 Record linkage Toolkit: https://recordlinkage.readthedocs.io
