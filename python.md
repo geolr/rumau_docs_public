@@ -46,8 +46,12 @@ Cheatsheet type of notes
 
 ## Loops
 
-`continue`: jump back to the loop and see if more needs to be done
+`for` loops => need a range of numbers or sequences of items
 
-`break`: leave the loop immediately
+`while` loops => need a logical expression
 
-`pass`: Do nothing
+* `continue`: jump back to the loop and see if more needs to be done
+
+* `break`: leave the loop immediately
+
+* `pass`: Do nothing
