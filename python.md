@@ -39,3 +39,15 @@ In interactive commandline: `help(datetime)` to get help for the datetime module
 ## Record linking
 "record linkage and deduplication"
 Record linkage Toolkit: https://recordlinkage.readthedocs.io
+
+# General
+
+Cheatsheet type of notes
+
+## Loops
+
+`continue`: jump back to the loop and see if more needs to be done
+
+`break`: leave the loop immediately
+
+`pass`: Do nothing
