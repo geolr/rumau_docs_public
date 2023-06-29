@@ -126,6 +126,12 @@ vs. Shell variables: Environment variables visible to all processes, not only sh
 `VAR="hello"  # shell variable created
 export VAR   # variable now part of the environment`
 
+# aliases
+
+`alias newname='command'`
+
+ncdu, not to quit with q only: `alias ncdu='ncdu --confirm-quit'`
+
 ------------------------------------------------------------
 
 `blocl 
