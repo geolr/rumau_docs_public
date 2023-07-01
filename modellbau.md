@@ -48,7 +48,8 @@ Protokolle:
 # DLG
 
 Kandidaten
-* Bobolink 1m Vollbalsa Flaeche, Querruder, konischer Karbonboom, Kunststoffrumpf vorne 
+* Bobolink 1m Vollbalsa Flaeche, Querruder, konischer Karbonboom, Kunststoffrumpf vorne
+* Mimi https://mimi.f3k.nl/index.php/vleugel-wing/ Vollbalsa oder aufgebaute Flaechen, AG03 Profil
 
 
 
