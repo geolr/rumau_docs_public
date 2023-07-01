@@ -44,3 +44,13 @@ Protokolle:
 * 4in1 LBT Version (Europe) is limited to LBT compliant protocols FrSKY X/X2 LBT, HoTT LBT and **DSMX** with 20dBm
   *  Was waere mit DSM2?
 * CC2500 LBT Version (Europe) is limited to LBT compliant protocols FrSKY X/X2 LBT & HoTT LBT with 20dBm => **DSMX** *fehlt also*
+
+# DLG
+
+Kandidaten
+* Bobolink 1m Vollbalsa Flaeche, Querruder, konischer Karbonboom, Kunststoffrumpf vorne 
+
+
+
+
+
