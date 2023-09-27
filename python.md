@@ -18,6 +18,12 @@ venv on Windows seems to work to activate like this: `.\windows_env\Scripts\acti
 
 Once in the activate `venv`, then `pip install` just works
 
+Try `C:\path\rumau_dev\welllogs_venv>C:\path\rumau_dev\welllogs_venv\Scripts\python.exe -m pip install --upgrade pip`
+
+Try `C:\path\rumau_dev\welllogs_venv>C:\path\rumau_dev\welllogs_venv\Scripts\python.exe -m pip install tqdm`
+
+List all installed packages `python.exe -m pip list`
+
 Also `python -m jupyterlab` is OK and starts the server and all.
 
 # Help
