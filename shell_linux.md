@@ -118,6 +118,13 @@ Disk usage
 
 `du -hs` just output one summarized line with the total if the argument was a folder
 
+`du -hs BH21E_HA_30*` seems to work:
+```
+6.0T	BH21E_HA_300
+90G	BH21E_HA_301
+1.6G	BH21E_HA_302
+```
+
 # cli
 Environment variables: `printenv` display all 
 
