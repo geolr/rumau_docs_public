@@ -24,6 +24,14 @@ to push local commits to remote:
 * Watch: https://github.com/trending
 * Star: https://github.com/geolr?tab=stars
 
+## Example pull request, dlisio, correction of link
+
+Readme.md contains dead link, I found an update.
+
+1. Fork repo
+2. edit readme.md in my forked repo
+3. 
+
 ## Visual Studio Code and Github
 
 `pull` is a good idea.
