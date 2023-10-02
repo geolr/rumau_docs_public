@@ -30,7 +30,8 @@ Readme.md contains dead link, I found an update.
 
 1. Fork repo
 2. edit readme.md in my forked repo
-3. 
+3. ?commit to my own fork
+4. ?send pull request, such that my change can be accepted and merged into original source project
 
 ## Visual Studio Code and Github
 
