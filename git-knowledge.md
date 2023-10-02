@@ -28,10 +28,12 @@ to push local commits to remote:
 
 Readme.md contains dead link, I found an update.
 
+Workflow only in the browser
+
 1. Fork repo
-2. edit readme.md in my forked repo
-3. ?commit to my own fork
-4. ?send pull request, such that my change can be accepted and merged into original source project
+2. edit readme.md in my forked repo ("Submitting a change will write it to a new branch in your fork geolr/dlisio, so you can send a pull request.")
+3. commit to my own fork; as suggested by github (asks to directly create a pull request)
+4. send pull request, such that my change can be accepted and merged into original source project
 
 ## Visual Studio Code and Github
 
