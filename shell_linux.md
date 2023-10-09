@@ -91,6 +91,10 @@ paranthesis group expressions, but require escaping in bash.
 
 `-exec` to do something with the results
 
+__Examples for `find`:__
+
+Find a specific filename in only some of the present directories `find ./BH2* -name somefile.ext`
+
 # regex
 
 Regular expressions
