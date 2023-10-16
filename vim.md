@@ -16,9 +16,13 @@
 
 `p` paste after; `P` paste before
 
+### Registers
+
 `:reg` shows current content of registers
 
 Paste from register 5: `"5p`
+
+Read to specific register: `"ayiw` reads one word into register named "a"
 
 ## Delete
 
