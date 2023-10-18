@@ -129,6 +129,17 @@ Disk usage
 1.6G	BH21E_HA_302
 ```
 
+# ncdu
+`--confirm-quit` prevents from unintentional close when hitting Esc too often
+
+`ncdu -e -o outfile.ncdu /some/path`
+=> can become quite large
+
+=> open that saved file again: -f
+`ncdu -f outfile.ncdu`
+
+shows top right corner that a file is open
+
 # cli
 Environment variables: `printenv` display all 
 
