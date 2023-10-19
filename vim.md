@@ -12,7 +12,7 @@
 
 `cw` change current word, removes current word and changes to Insert mode
 
-`yy` copy current line
+`yy` copy current line, duplicate via paste/put with `p`
 
 `p` paste after; `P` paste before
 
