@@ -74,6 +74,7 @@ for files and folders/directories
 `find -type d` is for finding only *directories*
 
 `find -name "*.txt"` looks for patterns in name (glob), case-sensitive
+==> without the quotes (not sure difference single vs. double) the shell would attempt to interpret *.txt
 
 `-iname` would be case-insensitive
 
@@ -90,6 +91,8 @@ Each expression is true or false for the current file. Many those expressions ar
 paranthesis group expressions, but require escaping in bash.
 
 `-exec` to do something with the results
+
+`2>/dev/null` to direct stderr to nowhere, thus not shown in terminal any more
 
 __Examples for `find`:__
 
