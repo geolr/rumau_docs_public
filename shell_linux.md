@@ -92,7 +92,11 @@ paranthesis group expressions, but require escaping in bash.
 
 `-exec` to do something with the results
 
-`2>/dev/null` to direct stderr to nowhere, thus not shown in terminal any more
+`2>/dev/null` to direct stderr to nowhere, thus not shown in terminal any more (e.g. access denied messages)
+
+`-ls` is an option to show results (see man for sizes 1K usually)
+
+nicer maybe: `find ./BH21E_HA_40* -name "*_1445*" | xargs ls -lh` then with human-readable sizes (more examples online for tricky cases)
 
 __Examples for `find`:__
 
