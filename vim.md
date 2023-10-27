@@ -43,6 +43,8 @@ Delete empty lines:
 
 ## View
 
+*Split screen*
+
 `Ctrl+w v` => vertical split (also via :vsplit or :vsp datei.txt)
 
 `\:q` => close this area :qa quit all
