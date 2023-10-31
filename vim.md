@@ -79,6 +79,8 @@ Delete empty lines:
 `%` is a range: Every line, anywhere in document\
 the range `4,7` would be lines four to seven
 
+`^` is the start/beginning of line ("start-of-line")
+
 ## Replace
 
 `:s` as in `:substitute` (or Search?) ((in selected Block??))
