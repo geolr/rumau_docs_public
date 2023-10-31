@@ -100,6 +100,10 @@ Add `i` to the end of the command => search case insensitive (`I` forces case-se
 
 In a terminal: `sed -i 's/C1/SGEO_C1/g' *.las`
 
+**Join** by doing a replace: search for character and `\n`, then replace with a blank of other character => results in joined lines
+
+example for a join: `%s/:\n/-/g` This does the substitution in the whole file for `:` at the end of the line, thus `:\n` together, replace these with `-`, then results in joined lines
+
 ## Sorting
 
 This is Fast!
