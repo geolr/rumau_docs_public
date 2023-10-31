@@ -31,9 +31,11 @@ Read to specific register: `"ayiw` reads one word into register named "a"
 Delete line match a pattern: `:g/profile/d` (/ can be _ if forward slash is needed in pattern)\
 \:g as in global
 
-d is the command to be done, here d for line deleteTo *negate*, thus *not* matching search `:g!/pattern/d` will remove all lines not containing pattern
+d is the command to be done, here d for line delete
 
-`:g"NO \d\d\dd` Deletes all lines containing the string `"NO nnn` where nnn would be three digits (using _ as delimiter between parts of the command, standard is forward slash /)
+To *negate*, thus *not* matching search `:g!/pattern/d` will remove all lines not containing pattern
+
+`:g"NO \d\d\dd` Deletes all lines *containing* the string `"NO nnn` where nnn would be three digits (using _ as delimiter between parts of the command, standard is forward slash /)
 
 `:g/"NO 6[3-8]/d` (to remove all lines for Norwegian Sea wells) => regex way to say numbers from 3 to 8
 
