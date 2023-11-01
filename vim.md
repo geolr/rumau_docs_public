@@ -1,12 +1,16 @@
 # Vim notes
 
-## Navigation
+## Navigation, move
 
 `G` last line
 
 `gg` first line
 
 `42G` move to line 42
+
+`0` (zero) start of line
+
+`$` end of line, yes with alt-gr :-/
 
 ## Edit, Copy-Paste
 
