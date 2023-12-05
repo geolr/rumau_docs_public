@@ -63,6 +63,10 @@ find a string in files
 
 also find with -atime might help: To find files whose modification time is 2 or more days ago: `find . -type f -mtime 2`
 
+# ls
+
+Oldest in the bottom: `ls -lt`
+
 # find
 
 for files and folders/directories
@@ -160,6 +164,13 @@ export VAR   # variable now part of the environment`
 `alias newname='command'`
 
 ncdu, not to quit with q only: `alias ncdu='ncdu --confirm-quit'`
+
+
+# Users
+
+`id username` shows numerical ids for user and groups
+
+`id -nu <number>` shows the user to the numerical id
 
 ------------------------------------------------------------
 
