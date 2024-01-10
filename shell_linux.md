@@ -73,6 +73,8 @@ for files and folders/directories
 
 `find` looks recursively from current pwd
 
+or the given path `find <pathtosearch> <options like name...>`
+
 `find -type f` is for finding only *files*
 
 `find -type d` is for finding only *directories*
