@@ -124,6 +124,8 @@ For numeric sort: `:sort n`
 
 Move commands => selectiert Danach d løscht
 
+After selecting the block where the edits should go: `Shift-i`, then type what should be inserted, `Esc` and `Esc` (twice!)
+
 Zum Blockweise Kommentieren Cursor am Zeilenanfang Ctrl+v, j soviele Zeilen wie nøtig I Tippen des Kommentars z.B. #### ESC macht die Bearbeitung schnell auch bei grossen Dateien
 
 <http://vimdoc.sourceforge.net/htmldoc/visual.html##blockwise-operators>
