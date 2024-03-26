@@ -78,6 +78,10 @@ Record linkage Toolkit: https://recordlinkage.readthedocs.io
 
 Cheatsheet type of notes
 
+## Strings
+
+`r"C:\folder"` this is a raw string literal to avoid the double `\\`; literal backslash (as opposed to escape character in a normal string)
+
 ## Loops
 
 `for` loops => need a range of numbers or sequences of items
