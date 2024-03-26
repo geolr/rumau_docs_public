@@ -32,7 +32,35 @@ In interactive commandline: `help(datetime)` to get help for the datetime module
 
 # Libs
 
+List all installed packages `python -m pip list`
+
+Update: ?
+
+Only pip upgrade: `python pip install --upgrade pip`
+
 ## Pandas
+
+From CSV-file: 
+```
+geo_gas = pd.read_csv('data/geo_gas_1.csv')
+geo_gas.head()
+```
+Get some info:
+```
+geo_gas.info()
+index                                                       38766
+Realization                                                     0
+Zone            NansenNansenNansenNansenNansenNansenNansenNans...
+Region_index    A1A2SA2MA2NA3A4WA4EA5WA5EA5NA6A7A8A9A1020D20E1...
+Bulk                                                  1.07304e+09
+Net                                                    5.3989e+08
+Pore                                                  1.04475e+08
+Hcpv                                                  8.11572e+07
+Giip                                                  2.26942e+10
+dtype: object
+```
+Uniqueness in dataframe:
+`geo_gas.Zone.unique()`
 
 `pd.concat` needs a `sort=True`
 
