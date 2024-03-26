@@ -82,6 +82,10 @@ Cheatsheet type of notes
 
 `r"C:\folder"` this is a raw string literal to avoid the double `\\`; literal backslash (as opposed to escape character in a normal string)
 
+may want to learn about `formatted string literals` or f-strings
+
+`f"sometext{variable} more text {another-variable}
+
 ## Pathlib
 
 to get a string from a Path-object:
