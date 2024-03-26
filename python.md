@@ -95,6 +95,25 @@ to get a string from a Path-object:
 'C:\\Users\\rm\\realpython\\file.txt'
 ```
 
+Recursive listing, content of subfolders:
+```
+# .rglob() for recursive listing
+
+diskspace = 0
+
+for f in p.rglob("*"):
+    if f.is_dir():
+        print(f, "total so far ", diskspace)
+    else:
+        #print(f)
+        s = f.stat().st_size
+        #print(type(s))
+        diskspace += s
+        print(f,s,"total so far:",diskspace)
+print(diskspace)
+```
+
+
 ## Loops
 
 `for` loops => need a range of numbers or sequences of items
