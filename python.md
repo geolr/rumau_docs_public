@@ -82,6 +82,15 @@ Cheatsheet type of notes
 
 `r"C:\folder"` this is a raw string literal to avoid the double `\\`; literal backslash (as opposed to escape character in a normal string)
 
+## Pathlib
+
+to get a string from a Path-object:
+```
+>>> from pathlib import Path
+>>> str(Path(r"C:\Users\rm\realpython\file.txt"))
+'C:\\Users\\rm\\realpython\\file.txt'
+```
+
 ## Loops
 
 `for` loops => need a range of numbers or sequences of items
