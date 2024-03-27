@@ -72,6 +72,8 @@ Select only some columns:
 
 `pd.json_normalize(j, record_path=['data','results'])` where j is dictionary of json, data and results are levels in the json hierarchy
 
+In Pandas you want to use vectorized operations, **not iteration** see https://realpython.com/pandas-iterate-over-rows/
+
 `df.to_csv('new.csv')` for export to csv
 
 ## Record linking
