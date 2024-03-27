@@ -66,6 +66,10 @@ Uniqueness in dataframe:
 
 `pd.Series` to create an empty, needs as dtype-specified, default is now `object`
 
+Select only some columns: 
+`rawlist[["Survey name","File path"]].head()`
+`df = rawlist[["Survey name","File path"]]`
+
 `pd.json_normalize(j, record_path=['data','results'])` where j is dictionary of json, data and results are levels in the json hierarchy
 
 `df.to_csv('new.csv')` for export to csv
