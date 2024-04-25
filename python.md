@@ -14,6 +14,8 @@ Deactive with: `deactivate`
 
 # Windows
 
+(WinExpl `Shift+Rightclick` for PowerShell in current folder)
+
 venv on Windows seems to work to activate like this: `.\windows_env\Scripts\activate`
 
 Once in the activate `venv`, then `pip install` just works
