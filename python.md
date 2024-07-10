@@ -16,6 +16,9 @@ Deactive with: `deactivate`
 
 (WinExpl `Shift+Rightclick` for PowerShell in current folder)
 
+In PowerShell, the command for running python to create venv:
+` & 'C:\Program Files\Pythonnnn\python.exe' -m venv windows_env`
+
 venv on Windows seems to work to activate like this: `.\windows_env\Scripts\activate`
 
 Once in the activate `venv`, then `pip install` just works
