@@ -7,6 +7,8 @@ Python package
 Tips and tricks
 
 ## Login, Auth
+Need to get correct config file (check github)
+
 Make sure things work towards the server
 
 Test command `osdu status`
