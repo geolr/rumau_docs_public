@@ -25,4 +25,5 @@ Lambert Conformal Conic projection: good for East-West
 
 EPSG has codes for both the geographic and the projected CRS'es
 
-## WGS84
+#### Links
+CRS-Talk: https://video.osgeo.org/w/iAh2NTveFJ7ByQQaNm79Sc
