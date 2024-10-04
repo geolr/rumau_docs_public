@@ -182,6 +182,8 @@ stop recording `q`
 
 show register `:reg a` from normal mode
 
+run macro `@a` to run from register a, runs after releasing the a key, no confirmation or anything
+
 edit macro before running: `:let @a='` next key-press is `C-r` again `C-r` then `a`, this should show the current macro in register a
 
 use arrow keys to move and edit/delete from macro, e.g. update the numbers to insert `:let @a='2j16l^VG16lI2700;^[^[dwiZ^[:w^M^M`
