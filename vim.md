@@ -174,6 +174,16 @@ set path+=\*\* += haengt an \*\* dann sind alle Unterverzeichnisse rekursiv dabe
 
 Zum Anzeigen der aktuellen Variablen, in vim, für 'path' :set path?
 
+## Macros
+
+recording: `qa` to record to register a
+
+stop recording `q`
+
+show register `:reg a` from normal mode
+
+edit macro before running: `:let @a='` next key-press is `C-r` again `C-r` 
+
 ## Testen/Lernen
 
 * [ ] File-Browser mit: `:tabnew` .
