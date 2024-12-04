@@ -1,3 +1,7 @@
+# PowerShell
+
+`tnc` check for Test-NetConnection, includes ping, traceroute, ...
+
 # Power Apps
 
 ## Source of data: Sharepoint list
