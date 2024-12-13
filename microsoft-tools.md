@@ -1,3 +1,7 @@
+# cmd
+
+tree (also tree /f ?)
+
 # PowerShell
 
 `tnc` check for Test-NetConnection, includes ping, traceroute, ...
