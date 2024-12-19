@@ -1,5 +1,8 @@
 # cmd
 
+See the free space on shared storage/network drives: 
+`dir <G:\...path>` should show free space in bytes
+
 tree (also tree /f ?)
 
 # PowerShell
