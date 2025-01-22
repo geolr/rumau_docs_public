@@ -9,6 +9,9 @@ tree (also tree /f ?)
 
 `tnc` check for Test-NetConnection, includes ping, traceroute, ...
 
+Get a files properties, owner, size in GB
+`Get-Item "C:\Path\To\Your\File.txt" | Select-Object Name, @{Name="SizeGB";Expression={[math]::Round($_.Length / 1GB, 2)}}, @{Name="Owner";Expression={(Get-Acl $_.FullName).Owner}}`
+
 # Power Apps
 
 ## Source of data: Sharepoint list
