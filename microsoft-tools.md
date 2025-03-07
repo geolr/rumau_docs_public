@@ -12,6 +12,10 @@ tree (also tree /f ?)
 Get a files properties, owner, size in GB
 `Get-Item "C:\Path\To\Your\File.txt" | Select-Object Name, @{Name="SizeGB";Expression={[math]::Round($_.Length / 1GB, 2)}}, @{Name="Owner";Expression={(Get-Acl $_.FullName).Owner}}`
 
+# File system
+
+`\\\\?\\`, referred to as "extended length-path" is a prefix that can be used to circumvent the max-path-length limit in Windows
+
 # Power Apps
 
 ## Source of data: Sharepoint list
