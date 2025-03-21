@@ -79,7 +79,16 @@ Select only some columns:
 
 In Pandas you want to use vectorized operations, **not iteration** see https://realpython.com/pandas-iterate-over-rows/
 
-`df.to_csv('new.csv')` for export to csv
+`df.to_csv('new.csv')` for export **to csv**
+
+Pandas **adding** a list to dataframe:
+I think the columns in df and elements in list have to be the same, not sure.
+
+`df_files.loc[len(df_files)] = new_file`
+* `len(df_files)` returns the current number of rows in the DataFrame.
+* `df_files.loc[len(df_files)]` specifies the next row index.
+* Assigning `new_file` to this location appends the list as a new row.
+
 
 ## Record linking
 "record linkage and deduplication"
