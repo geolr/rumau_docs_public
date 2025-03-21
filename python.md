@@ -89,6 +89,8 @@ I think the columns in df and elements in list have to be the same, not sure.
 * `df_files.loc[len(df_files)]` specifies the next row index.
 * Assigning `new_file` to this location appends the list as a new row.
 
+Viewing in **notebooks**: just `df` not `print(df)`
+based on itables https://mwouts.github.io/itables/quick_start.html
 
 ## Record linking
 "record linkage and deduplication"
