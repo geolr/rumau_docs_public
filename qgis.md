@@ -4,6 +4,16 @@
 Field Calculator expression: x ( @geometry )
 
 
+## Databases
+`DB Manager` in menu `Database`
+
+Query for filtering to only get a layer with a subset of data: 
+
+```
+SELECT * 
+FROM "<tablename>"."api_well"
+WHERE "api_well"."basin_identifier"Like( 'Rhine')
+```
 
 
 # Other GIS
