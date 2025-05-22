@@ -92,6 +92,10 @@ I think the columns in df and elements in list have to be the same, not sure.
 Viewing in **notebooks**: just `df` not `print(df)`
 based on itables https://mwouts.github.io/itables/quick_start.html
 
+Adding columns
+`# Add a new column 'C' that is double the values in column 'A'`
+`df['C'] = df['A'] * 2`
+
 ## Record linking
 "record linkage and deduplication"
 Record linkage Toolkit: https://recordlinkage.readthedocs.io
