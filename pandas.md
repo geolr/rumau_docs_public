@@ -50,3 +50,10 @@ based on itables https://mwouts.github.io/itables/quick_start.html
 Adding columns
 `# Add a new column 'C' that is double the values in column 'A'`
 `df['C'] = df['A'] * 2`
+
+## Plotting
+
+Numbers: `df.columnname.plot(kind = 'hist')`
+
+`df.plot('columnA', 'columnname', kind = 'scatter')`
+
