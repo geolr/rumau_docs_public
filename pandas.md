@@ -19,6 +19,8 @@ Hcpv                                                  8.11572e+07
 Giip                                                  2.26942e+10
 dtype: object
 ```
+`df.describe(include='all')` gives a nice overview. Mainly for statistics.
+
 Uniqueness in dataframe:
 `geo_gas.Zone.unique()`
 
