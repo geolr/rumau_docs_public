@@ -12,6 +12,16 @@ Don't forget to Activate the environment: `source osdu-cli-env/bin/activate`
 
 Deactive with: `deactivate`
 
+# Package Management with uv
+> uv is a next-generation package manager for Python that delivers exceptional speed and modern dependency management. It is designed to be a drop-in replacement for pip, pip-tools, and virtualenv, providing a significantly faster and more reliable experience.
+https://betterstack.com/community/guides/scaling-python/uv-explained/
+
+Can handle the Python-versions for you
+
+`Windows Terminal` as app from AppStore
+
+`winget`  for install, then creating on a `project` with uv
+
 # Windows
 
 (WinExpl `Shift+Rightclick` for PowerShell in current folder)
