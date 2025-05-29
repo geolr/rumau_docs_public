@@ -8,6 +8,9 @@ For sourcing: `.profile`, `.bash_profile` or `.bashrc`
 
 `mkdir -p some/dir/sub/next/more` create parents as needed
 
+What does * mean after filename in a ls -l listing
+Can't delete even when owned by me and 755 access?
+
 # sed
 
 `sed -i 's/foo/bar/g' *`
