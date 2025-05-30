@@ -22,6 +22,12 @@ Can handle the Python-versions for you
 
 `winget`  for install, then creating on a `project` with uv
 
+`uv run hello.py` to run a script
+
+`uv run odsu -h` for this tool (not sure if `uv add osducli` is required or not)
+
+`uv run --with jupyter jupyter lab` to run jupyterlab without installing it in project virtual env. Dependencies will be loaded via `import...` from local virtual env.
+
 # Windows
 
 (WinExpl `Shift+Rightclick` for PowerShell in current folder)
