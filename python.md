@@ -114,3 +114,25 @@ print(diskspace)
 * `break`: leave the loop immediately
 
 * `pass`: Do nothing
+
+##  Tuples
+
+immutable, comparable, sortable( see more[https://www.py4e.com/html3/10-tuples py4e.com])
+```python
+ >>> t = ('a', 'b', 'c', 'd', 'e')
+ >>> print(t[1:3])
+ ('b', 'c')
+```
+Using the constructor to create a tuple (thus don't use this as variable name, it's already the constructor name)
+```python
+ >>> t = tuple('lupins')
+ >>> print(t)
+ ('l', 'u', 'p', 'i', 'n', 's')
+```
+
+Modify the elements of a tuple by replacing:
+```python
+ >>> t = ('A',) + t[1:]
+ >>> print(t)
+ ('A', 'b', 'c', 'd', 'e')
+```
