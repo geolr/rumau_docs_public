@@ -69,17 +69,23 @@ may want to learn about `formatted string literals` or f-strings
 
 `f"sometext{variable} more text {another-variable}
 
+Make a timestamp: 
+```python
+from datetime import datetime   #for timestamp in filename</code>
+datetime.now().strftime("%Y-%m-%d_%a_%H%M%S")
+```
+
 ## Pathlib
 
 to get a string from a Path-object:
-```
+```python
 >>> from pathlib import Path
 >>> str(Path(r"C:\Users\rm\realpython\file.txt"))
 'C:\\Users\\rm\\realpython\\file.txt'
 ```
 
 Recursive listing, content of subfolders:
-```
+```python
 # .rglob() for recursive listing
 
 diskspace = 0
