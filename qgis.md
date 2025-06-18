@@ -3,6 +3,10 @@
 ## Calculate fields for x, y
 Field Calculator expression: x ( @geometry )
 
+Vector > Geometry Tools > Add Geometry Attributes (but this creates a new layer with additional attributes)
+
+Copy paste from Attribute table (F6) would include a `Point (12345.123 98765.987)` as first column `wkt_geom` :-D thus no need sometimes
+
 
 ## Databases
 `DB Manager` in menu `Database`
