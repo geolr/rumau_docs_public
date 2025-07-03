@@ -22,3 +22,11 @@ Visual Studio Code has a *beautify* option in command palette for readability.
 Denormalized => combining several tables into one (for easier consumption by users)
 
 Normalized would be the data in it's seperate tables
+
+# Excel
+
+`Ctrl + Shift + ;` (semi-colon) inserts static string with current *date*
+
+`Ctrl + Shift + .` (dot) inserts static string with current *time*
+
+Both date and time: Do `Ctrl + Shift + ;` then `Space` then `Ctrl + Shift + .`
