@@ -30,3 +30,11 @@ Normalized would be the data in it's seperate tables
 `Ctrl + Shift + .` (dot) inserts static string with current *time*
 
 Both date and time: Do `Ctrl + Shift + ;` then `Space` then `Ctrl + Shift + .`
+
+# Harddisks, storage
+
+`shred`, `hdparm`, `dd`, `wipefs` to cleanse old disks?
+
+`DBAN` USB distro for this
+
+wipefs is only on partitions, dd can write zeros
