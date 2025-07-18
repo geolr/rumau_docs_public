@@ -16,6 +16,8 @@ Get a files properties, owner, size in GB
 
 `\\\\?\\`, referred to as "extended length-path" is a prefix that can be used to circumvent the max-path-length limit in Windows
 
+`certutil -hashfile "path to your file" MD5`
+
 # Power Apps
 
 ## Source of data: Sharepoint list
