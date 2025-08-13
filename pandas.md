@@ -24,6 +24,8 @@ dtype: object
 ## Looking at data
 `new_df.sample(n=20)` Shows a random collection of rows (instead of `df.head()`)
 
+If reproducability is required: `df.sample(n=5, random_state=42)`
+
 Uniqueness in dataframe:
 `geo_gas.Zone.unique()`
 
