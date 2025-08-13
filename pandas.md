@@ -21,6 +21,9 @@ dtype: object
 ```
 `df.describe(include='all')` gives a nice overview. Mainly for statistics.
 
+## Looking at data
+`new_df.sample(n=20)` Shows a random collection of rows (instead of `df.head()`)
+
 Uniqueness in dataframe:
 `geo_gas.Zone.unique()`
 
