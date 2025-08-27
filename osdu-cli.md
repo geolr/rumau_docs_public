@@ -6,6 +6,8 @@ Python package
 
 Tips and tricks
 
+ADME apis https://microsoft.github.io/adme-samples/ e.g. get all/specific legal tag
+
 ## Login, Auth
 Need to get correct config file (check github)
 
