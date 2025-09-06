@@ -35,3 +35,14 @@ File permissions (ACLs) — unless you use /COPYALL or /SEC during actual copyin
 File content (e.g., hash comparison)
 
 /LOG:comparison.txt save the output to file
+
+Check more on /FFT 
+
+
+# PowerShell
+To compare the timestamps:
+`(Get-ChildItem "G:\Sub_Appl_Data\HampsonRussel\SVG\GECA\2023\Bl31_21_General.prj\messages").LastWriteTimeUtc.Ticks`
+
+`(Get-ChildItem "G:\Sub_Appl_Data\HampsonRussel\SWEC\africa_w\GECA\2023\Bl31_21_General.prj\messages").LastWriteTimeUtc.Ticks`
+
+On-prem is more precise compared to SWEC!
