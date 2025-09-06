@@ -36,7 +36,7 @@ File content (e.g., hash comparison)
 
 /LOG:comparison.txt save the output to file
 
-Check more on /FFT 
+Check more on /FFT (File Fidelity Tolerance)
 
 
 # PowerShell
