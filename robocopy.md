@@ -46,3 +46,6 @@ To compare the timestamps:
 `(Get-ChildItem "G:\Sub_Appl_Data\HampsonRussel\SWEC\africa_w\GECA\2023\Bl31_21_General.prj\messages").LastWriteTimeUtc.Ticks`
 
 On-prem is more precise compared to SWEC!
+
+# BITS (Background Intelligent Transfer Service)
+may be a relevant alternative for uploading?
