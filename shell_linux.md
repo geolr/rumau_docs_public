@@ -153,9 +153,12 @@ Disk usage
 
 `ncdu -e -o outfile.ncdu /some/path`
 => can become quite large
+=> -e for extended info, like Last Modified
 
 => open that saved file again: -f
-`ncdu -f outfile.ncdu`
+`ncdu -e -f outfile.ncdu`
+
+=> use `i` to display more on the current file
 
 shows top right corner that a file is open
 
