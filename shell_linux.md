@@ -150,6 +150,22 @@ Disk usage
 1.6G	BH21E_HA_302
 ```
 
+Chatbot suggested to find size of certain directories `find /path -maxdepth 1 -type d -name 'dirname-A*' -exec du -sh {} \;`
+
+Explanation:
+`find /path`: This searches in the specified path.  
+`-maxdepth N`: Replace N with the maximum number of directory levels to descend into. For example, -maxdepth 1 restricts the search to the specified directory only, while -maxdepth 2 includes one level of subdirectories.
+`-type d`: This restricts the search to directories.  
+`-name 'dirname-A*'`: This matches directories that start with dirname-A.  
+`-exec du -sh {}`: This executes the du command on each found directory:  
+`du`: Disk usage command.  
+`-s`: Summarizes the total size of each argument.  
+`-h`: Human-readable format (e.g., KB, MB).  
+`{}`: A placeholder for the current directory found by find.  
+`\;`: This signifies the end of the -exec command.  
+
+try also `2>/dev/null` to direct stderr to nowhere, thus not shown in terminal any more (e.g. access denied messages)
+
 # ncdu
 `--confirm-quit` prevents from unintentional close when hitting Esc too often
 
