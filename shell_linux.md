@@ -70,6 +70,8 @@ also find with -atime might help: To find files whose modification time is 2 or 
 
 Oldest in the bottom: `ls -lt`
 
+Give the matching directories only using the `-d` switch:  `ls -ld /somepath/dirname-A*/` shows only the foldernames matching, not their content (I think this approach is called shell globbing)
+
 # find
 
 for files and folders/directories
