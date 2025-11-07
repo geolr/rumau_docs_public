@@ -14,6 +14,7 @@ Selection => selected when yellow, press `Shift` and `Arrow`
 
 `Ctrl - u` => Swap panels
 
+Try `Ctrl-Space` to show the size of the directory
 
 # References
 - https://gist.github.com/samiraguiar/9cd4264445545cfd459d
