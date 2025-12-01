@@ -12,6 +12,8 @@ Selection => selected when yellow, press `Shift` and `Arrow`
 
 `Alt - s` => quick search to jump to match (case sensitive); (not needed if command bar is disabled)
 
+`Alt - i` => opens directory in opposite panel
+
 `Ctrl - u` => Swap panels
 
 Try `Ctrl-Space` to show the size of the directory
