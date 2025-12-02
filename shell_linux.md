@@ -110,6 +110,13 @@ paranthesis group expressions, but require escaping in bash.
 
 nicer maybe: `find ./BH21E_HA_40* -name "*_1445*" | xargs ls -lh` then with human-readable sizes (more examples online for tricky cases)
 
+Look for recent files:
+`find /path/to/directory -type f -printf '%T@ %p\n' | sort -n | tail -n 20`
+
+`%T@` is seconds since the epoch, I guess this would sort properly.
+
+Then a `ls -l` on dir would allow to check more
+
 __Examples for `find`:__
 
 Find a specific filename in only some of the present directories `find ./BH2* -name somefile.ext`
