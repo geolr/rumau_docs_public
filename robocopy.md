@@ -40,7 +40,10 @@ Check more on /FFT (File Fidelity Tolerance)
 
 # Uploading
 
-`/copyall` Data, Attributes, Time stamps, access control lists, Owner, auditing info
+Possible: `/copyall` Data, Attributes, Time stamps, access control lists, Owner, auditing info
+
+Probably better: `robocopy source destination /copy:DATSO` Data, Attributes, Time stamps, access control lists, Owner
+=> not the audit info
 
 # PowerShell
 To compare the timestamps:
