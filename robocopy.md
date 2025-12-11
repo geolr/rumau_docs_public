@@ -38,6 +38,9 @@ File content (e.g., hash comparison)
 
 Check more on /FFT (File Fidelity Tolerance)
 
+# Uploading
+
+`/copyall` Data, Attributes, Time stamps, access control lists, Owner, auditing info
 
 # PowerShell
 To compare the timestamps:
