@@ -12,8 +12,25 @@ tree (also tree /f ?)
 Simple list of directory contents:
 `Get-ChildItem "G:\EXP\NO_Central_South_Africa\ArcGIS" | Format-Table Name`
 
+`gci` alias for Get-ChildItem
+
 Get a files properties, owner, size in GB
 `Get-Item "C:\Path\To\Your\File.txt" | Select-Object Name, @{Name="SizeGB";Expression={[math]::Round($_.Length / 1GB, 2)}}, @{Name="Owner";Expression={(Get-Acl $_.FullName).Owner}}`
+
+## PowerShell to get filesizes from a list
+
+CoPilot derived.
+
+`$files = Get-Content filelist.txt | ForEach-Object { Get-Item $_ }`
+
+FileInfo objects are now in $files variable
+
+Iterate over files:
+
+`foreach ($f in $files) {
+    Write-Host "$($f.FullName) - $($f.Length) bytes"
+}
+`
 
 # File system
 
