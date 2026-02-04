@@ -66,6 +66,10 @@ find a string in files
 
 also find with -atime might help: To find files whose modification time is 2 or more days ago: `find . -type f -mtime 2`
 
+## encoding
+
+`file -i filename`
+
 # ls
 
 Oldest in the bottom: `ls -lt`
