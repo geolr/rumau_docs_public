@@ -70,6 +70,8 @@ also find with -atime might help: To find files whose modification time is 2 or 
 
 `file -i filename`
 
+`ls -b` to get the listing with octal notation e.g. \305 instead of Å (my guess)
+
 # ls
 
 Oldest in the bottom: `ls -lt`
