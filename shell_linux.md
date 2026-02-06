@@ -72,6 +72,20 @@ also find with -atime might help: To find files whose modification time is 2 or 
 
 `ls -b` to get the listing with octal notation e.g. \305 instead of Å (my guess)
 
+## null-terminated filenames
+
+`/` is not allowe in filename as separator for directories
+
+`\0` NUL byte cannot appear in filenames. 
+
+Other characters are legal! Like spaces, tabs, newlines etc.
+
+Tools may use space or so to seperate files, which causes problems once a filename has a space. 
+
+`find . -print0` can output the files seperated by NUL byte (not visible, not printable, just a control byte, ...)
+
+`xargs -0` can receive those and do something with it.
+
 # ls
 
 Oldest in the bottom: `ls -lt`
