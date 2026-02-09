@@ -58,14 +58,6 @@ find a string in files
 
 `grep -l SOR *.las | xargs.exe cp -t ./selected_curves/` to copy the found files to a different folder
 
-# file properties
-## Time
-* `mtime` modification time => `ls -l` shows that
-* `ctime` change of a file's metadata such as ownership, location, permissions
-* `atime` access time => try `ls -lu`
-
-also find with -atime might help: To find files whose modification time is 2 or more days ago: `find . -type f -mtime 2`
-
 ## encoding
 
 `file -i filename`
@@ -146,6 +138,22 @@ Find a specific filename in only some of the present directories `find ./BH2* -n
 Regular expressions
 
 <https://github.com/google/re2/blob/main/doc/syntax.txt>
+
+# File metadata
+
+## Timestamps
+
+Details `stat filename`
+
+`mtime` **m**odification time, changes when editing and saving file, `ls -l` shows that
+
+`ctime` **c**hange time, metadata in inode, could change also when file content is the same, change of ownership or permissions etc.
+
+`atime` **a**ccess time => try `ls -lu`
+
+`find . -printf '%TY-%Tm-%Td %TH:%TM:%TS mtime %p\n%CY-%Cm-%Cd %CH:%CM:%CS ctime %p\n'` (from copilot)
+
+also find with -atime might help: To find files whose modification time is 2 or more days ago: `find . -type f -mtime 2`
 
 # rsync
 
