@@ -14,4 +14,6 @@ List sessions: `tmux ls` (also from the inside)
 
 Split vertically: `Ctrl + a, then %`
 
+Split horizontally: `Ctrl + a, then "`
+
 Move between panes: `Ctrl + a, then arrow key`
