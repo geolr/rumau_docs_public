@@ -17,3 +17,5 @@ Split vertically: `Ctrl + a, then %`
 Split horizontally: `Ctrl + a, then "`
 
 Move between panes: `Ctrl + a, then arrow key`
+
+Keyboard commands `prefix + ?`
