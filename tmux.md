@@ -6,6 +6,10 @@ Can keep ssh
 ## my config
 symlinked .tmux.conf to ~/.config/tmux/tmux.con
 
+Copy mode: to avoid [ => `Ctrl-b å` to enter copy mode
+
+Paste in copy mode: to avoid ] => `Ctrl-b ¨` to paste tmux buffer in copy mode (no dead-key?)
+
 ## how to
 
 **PREFIX** key combo: Default is `Ctrl - b`, works for me
@@ -29,6 +33,9 @@ Remove split: `Ctrl + d`, terminates the panes shell process, or `exit`
 Keyboard commands `prefix + ?`
 
 **Copy Mode**
+No interaction with the shell process any more.
+
 needed for:
 
 Scrolling => Mouse wheel, as I have `set -g mouse on` (?)
+
