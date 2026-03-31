@@ -12,9 +12,7 @@ Paste in copy mode: to avoid ] => `Ctrl-b ¨` to paste tmux buffer in copy mode 
 
 ## how to
 
-**PREFIX** key combo: Default is `Ctrl - b`, works for me
-
-Did not work to change my keyboard to `Ctrl-a` for the **prefix**
+**PREFIX** key combo: Default is `Ctrl - b`, works for me (often recommended to use Ctrl+a instead)
 
 Detach from session: `Ctrl + a, then d`
 
@@ -32,10 +30,15 @@ Remove split: `Ctrl + d`, terminates the panes shell process, or `exit`
 
 Keyboard commands `prefix + ?`
 
-**Copy Mode**
+### Copy Mode
 No interaction with the shell process any more.
 
 needed for:
 
 Scrolling => Mouse wheel, as I have `set -g mouse on` (?)
 
+`å and ¨` for entering Copy Mode and pasting tmux buffer
+
+Leave Copy Mode: `q`
+
+Only `PageUp` can be used to scroll up and stay in Copy Mode, use `q` to leave copy mode
