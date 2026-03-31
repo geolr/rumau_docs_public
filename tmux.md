@@ -3,6 +3,11 @@
 Can keep ssh 
 
 
+## my config
+symlinked .tmux.conf to ~/.config/tmux/tmux.con
+
+## how to
+
 **PREFIX** key combo: Default is `Ctrl - b`, works for me
 
 Did not work to change my keyboard to `Ctrl-a` for the **prefix**
@@ -17,7 +22,9 @@ Split vertically: `Ctrl + a, then %`
 
 Split horizontally: `Ctrl + a, then "`
 
-Move between panes: `Ctrl + a, then arrow key`
+Move between panes: `Ctrl + a, then arrow key` or by mouse-click since mouse mode is on
+
+Remove split: `Ctrl + d`, terminates the panes shell process, or `exit`
 
 Keyboard commands `prefix + ?`
 
