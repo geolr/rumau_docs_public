@@ -42,3 +42,15 @@ Scrolling => Mouse wheel, as I have `set -g mouse on` (?)
 Leave Copy Mode: `q`
 
 Only `PageUp` can be used to scroll up and stay in Copy Mode, use `q` to leave copy mode
+
+## remote
+commands run in tmux, not the ssh session.
+
+A disconnect leaves tmux running and the shell(s) therein. 
+Ready to reconnect later.
+
+`ssh user@host` login first, then `tmux new -s sessionname`
+
+**Detach** session `Ctrl+a d` or from inside tmux `tmux detach` => gives back the normal shell on remote machine, then exit so close ssh-session.
+
+Once again logged in to remote host: `tmux attach -t sessionname` or `tmux a`
