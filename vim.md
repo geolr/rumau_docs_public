@@ -1,6 +1,7 @@
 # Vim notes
 
-`C-r` would mean the key-combo `Ctrl-r` (inserts content of a register, like `C-r` then `a` would insert contents for register a)
+`C-r` would mean the key-combo `Ctrl-r` (redo last edit action)  
+(not sure about this: like `C-r` then `a` would insert contents for register a)
 
 ## Navigation, move
 
