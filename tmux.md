@@ -14,7 +14,7 @@ Paste in copy mode: to avoid ] => `Ctrl-b ¨` to paste tmux buffer in copy mode 
 
 **PREFIX** key combo: Default is `Ctrl - b`, works for me (often recommended to use Ctrl+a instead)
 
-Detach from session: `Ctrl + a, then d`
+Detach from session: `Ctrl + a, then d` (can *close* ssh-connection, to re-attach `tmux a`)
 
 Attach to session: `tmux attach -t mysession` or `tmux a`
 
