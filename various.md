@@ -1,6 +1,8 @@
 # Github writing, Markdown
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
+https://www.markdowntools.io/github-markdown-cheat-sheet
+
 # json
 
 `"key":"value"` where key is a string
@@ -27,9 +29,9 @@ Normalized would be the data in it's seperate tables
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>;</kbd> (semi-colon) inserts static string with current *date*
 
-`Ctrl + Shift + .` (dot) inserts static string with current *time*
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> (dot) inserts static string with current *time*
 
-Both date and time: Do `Ctrl + Shift + ;` then `Space` then `Ctrl + Shift + .`
+Both date and time: Do <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>;</kbd> then <kbd>Space</kbd> then <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>
 
 # Harddisks, storage
 
