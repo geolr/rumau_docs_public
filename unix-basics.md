@@ -7,7 +7,7 @@
 `groups user1 user2 user3` to show which groups the users belong to, for comparison
 
 `getent group <somename>` shows the members of that group
-: output: `group_name:password:GID:members`
+  output: `group_name:password:GID:members`
 
 `getent passwd alfni <somename>` shows info on that user
 
