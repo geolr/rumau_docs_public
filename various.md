@@ -25,7 +25,7 @@ Normalized would be the data in it's seperate tables
 
 # Excel
 
-`Ctrl + Shift + ;` (semi-colon) inserts static string with current *date*
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>;</kbd> (semi-colon) inserts static string with current *date*
 
 `Ctrl + Shift + .` (dot) inserts static string with current *time*
 
