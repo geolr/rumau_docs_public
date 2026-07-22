@@ -233,18 +233,7 @@ export VAR   # variable now part of the environment`
 
 ncdu, not to quit with q only: `alias ncdu='ncdu --confirm-quit'`
 
-
-# Users and Groups
-
-`id username` shows numerical ids for user and groups
-
-`id -nu <number>` shows the user to the numerical id
-
-`groups user1 user2 user3` to show which groups the users belong to, for comparison
-
-`getent group <somename>` shows the members of that group
-
-`getent passwd alfni <somename>` shows info on that user
+Moved some user-group things to 
 
 ------------------------------------------------------------
 
