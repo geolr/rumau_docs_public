@@ -31,6 +31,8 @@ Remove split: `Ctrl + d`, terminates the panes shell process, or `exit`
 Keyboard commands `prefix + ?`
 
 ### Copy Mode
+Select a text by mouse and Middle-click to insert does not work.
+
 No interaction with the shell process any more.
 
 needed for:
