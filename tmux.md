@@ -14,12 +14,6 @@ Paste in copy mode: to avoid ] => `Ctrl-b ¨` to paste tmux buffer in copy mode 
 
 **PREFIX** key combo: Default is `Ctrl - b`, works for me (often recommended to use Ctrl+a instead)
 
-Detach from session: `Ctrl + a, then d` (can *close* ssh-connection, to re-attach `tmux a`)
-
-Attach to session: `tmux attach -t mysession` or `tmux a`
-
-List sessions: `tmux ls` (also from the inside)
-
 Split vertically: `Ctrl + a, then %`
 
 Split horizontally: `Ctrl + a, then "`
@@ -44,6 +38,17 @@ Scrolling => Mouse wheel, as I have `set -g mouse on` (?)
 Leave Copy Mode: `q`
 
 Only `PageUp` can be used to scroll up and stay in Copy Mode, use `q` to leave copy mode
+
+## sessions
+
+`tmux list-sessions` but only from inside a running session? Else from shell just "no server running"...
+
+Detach from session: `Ctrl + a, then d` (can *close* ssh-connection, to re-attach `tmux a`)
+
+Attach to session: `tmux attach -t mysession` or `tmux a`
+
+List sessions: `tmux ls` (also from the inside)
+
 
 ## remote
 commands run in tmux, not the ssh session.
