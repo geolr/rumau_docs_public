@@ -41,13 +41,12 @@ Only `PageUp` can be used to scroll up and stay in Copy Mode, use `q` to leave c
 
 ## sessions
 
-`tmux list-sessions` but only from inside a running session? Else from shell just "no server running"...
+`tmux list-sessions` or `tmux ls` The message "no server running"... I think means that there is no detached session running.
 
 Detach from session: `Ctrl + a, then d` (can *close* ssh-connection, to re-attach `tmux a`)
 
 Attach to session: `tmux attach -t mysession` or `tmux a`
 
-List sessions: `tmux ls` (also from the inside)
 
 
 ## remote
