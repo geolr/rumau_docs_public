@@ -99,7 +99,7 @@ But: Only once per line, Repeat and it will take the next occurrence...\
 Add to the end of the command `g` to do it globally\
 Add `i` to the end of the command => search case insensitive (`I` forces case-sensitive)
 
-`%s_GB 16/23-4_GB 16/23- 4_g` the slash is part of the search/replace string
+`%s_GB 16/23-4_GB 16/23- 4_g` the slash is part of the search/replace string; also `|` as seperator
 
 **Norwegian characters** Several combined (my Windows-Vim has issues with the characters, but Linux-RGS works well: `:%s/Ø/OE/g | %s/Å/AA/g | %s/Æ/AE/g`
 
@@ -107,7 +107,7 @@ Add `i` to the end of the command => search case insensitive (`I` forces case-se
 
 `:%s/\t/"\t/` **replaces** the first Tab on every line with "`<Tab>` => to encapsulate a well name with double quotes
 
-In a terminal: `sed -i 's/C1/SGEO_C1/g' *.las`
+In a terminal: `sed -i 's/C1/SGEO_C1/g' *.las` or `sed -i 's|project/|project/OW/|g file.txt'
 
 **Join** by doing a replace: search for character and `\n`, then replace with a blank of other character => results in joined lines
 
