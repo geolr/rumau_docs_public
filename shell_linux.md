@@ -128,10 +128,12 @@ Look for recent files:
 ==> ncdu with `-e`, then m and M, would read out mtime and sort by mtime
 
 
-
+-printf options (in single quotes):
 `%T@` is seconds since the epoch, I guess this would sort properly.
 
 Then a `ls -l` on dir would allow to check more
+
+`-empty` to look for empty files or directories
 
 __Examples for `find`:__
 
