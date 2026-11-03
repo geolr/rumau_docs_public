@@ -14,6 +14,12 @@ Paste in copy mode: to avoid ] => `Ctrl-b ¨` to paste tmux buffer in copy mode 
 
 **PREFIX** key combo: Default is `Ctrl - b`, works for me (often recommended to use Ctrl+a instead)
 
+Keyboard commands `prefix + ?`
+
+`tmux new -s sessionname`
+
+### Split Windows
+
 Split vertically: `Ctrl + a, then %`
 
 Split horizontally: `Ctrl + a, then "`
@@ -21,8 +27,6 @@ Split horizontally: `Ctrl + a, then "`
 Move between panes: `Ctrl + a, then arrow key` or by mouse-click since mouse mode is on
 
 Remove split: `Ctrl + d`, terminates the panes shell process, or `exit`
-
-Keyboard commands `prefix + ?`
 
 ### Copy Mode
 Select a text by mouse and Middle-click to insert does not work.
