@@ -12,6 +12,12 @@ tree (also tree /f ?)
 Simple list of directory contents:
 `Get-ChildItem "G:\EXP\NO_Central_South_Africa\ArcGIS" | Format-Table Name`
 
+To a file `Get-ChildItem -Path "C:\MyPath" -Directory | Select-Object -ExpandProperty Name > dirs.txt` this for foldernames only
+
+Variant with FullPath: `Get-ChildItem -Path "C:\MyPath" -Directory | Select-Object -ExpandProperty FullName > dirs.txt`
+
+Also with recursive (not tested) `Get-ChildItem -Path "C:\MyPath" -Directory -Recurse | Select-Object -ExpandProperty FullName > dirs.txt`
+
 `gci` alias for Get-ChildItem
 
 Get a files properties, owner, size in GB
