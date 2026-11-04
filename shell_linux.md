@@ -84,6 +84,8 @@ Oldest in the bottom: `ls -lt`
 
 Give the matching directories only using the `-d` switch:  `ls -ld /somepath/dirname-A*/` shows only the foldernames matching, not their content (I think this approach is called shell globbing)
 
+To see the numeric representation of permissions: `stat` shows this, see below.
+
 # find
 
 for files and folders/directories
@@ -160,6 +162,8 @@ Details `stat filename`
 `find . -printf '%TY-%Tm-%Td %TH:%TM:%TS mtime %p\n%CY-%Cm-%Cd %CH:%CM:%CS ctime %p\n'` (from copilot)
 
 also find with -atime might help: To find files whose modification time is 2 or more days ago: `find . -type f -mtime 2`
+
+`stat` also displays the numeric permissions like 0755
 
 # rsync
 
