@@ -165,6 +165,12 @@ also find with -atime might help: To find files whose modification time is 2 or 
 
 `stat` also displays the numeric permissions like 0755
 
+```
+r (read): 4
+w (write): 2
+x (execute): 1
+```
+
 # rsync
 
 `-az` archive and compress is good
