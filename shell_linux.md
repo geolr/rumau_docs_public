@@ -171,6 +171,9 @@ w (write): 2
 x (execute): 1
 ```
 
+## group ownership
+To do `chgrp somegp file` I need to be a member of somegp
+
 # rsync
 
 `-az` archive and compress is good
