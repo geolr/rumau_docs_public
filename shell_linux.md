@@ -86,6 +86,8 @@ Give the matching directories only using the `-d` switch:  `ls -ld /somepath/dir
 
 To see the numeric representation of permissions: `stat` shows this, see below.
 
+`namei -l /dir/subdir/subsub/file.xt` => shows all parents to evaluate access
+
 # find
 
 for files and folders/directories
